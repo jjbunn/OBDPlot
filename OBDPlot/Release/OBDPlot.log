@@ -1,0 +1,22 @@
+﻿Build started 10/4/2013 9:56:28 AM.
+     1>Project "C:\Users\Julian\Google Drive\OBDPlot\OBDPlot\OBDPlot.vcxproj" on node 2 (Build target(s)).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\OBDPlot.res" OBDPlot.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julian\Google Drive\OBDPlot\Release\OBDPlot.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Julian\Google Drive\OBDPlot\Release\OBDPlot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Julian\Google Drive\OBDPlot\Release\OBDPlot.lib" /MACHINE:X86 /SAFESEH Release\OBDPlot.res
+         Release\OBDPlot.obj
+         Release\stdafx.obj
+         Generating code
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1151): warning C4715: 'SendADCChannelRead' : not all control paths return a value
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1125): warning C4715: 'SendValueRequestBlock' : not all control paths return a value
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1089): warning C4715: 'SendBlockType' : not all control paths return a value
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1067): warning C4715: 'SendEndBlock' : not all control paths return a value
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1046): warning C4715: 'SendAckBlock' : not all control paths return a value
+     1>c:\users\julian\google drive\obdplot\obdplot\obdplot.cpp(1024): warning C4715: 'GetBlock' : not all control paths return a value
+         Finished generating code
+         OBDPlot.vcxproj -> C:\Users\Julian\Google Drive\OBDPlot\Release\OBDPlot.exe
+     1>Done Building Project "C:\Users\Julian\Google Drive\OBDPlot\OBDPlot\OBDPlot.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50
